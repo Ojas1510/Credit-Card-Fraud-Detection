@@ -29,7 +29,7 @@ Collum_1 is time of the day <br />
 Collum_2 to Collum_28 are the credit card details which are converted in numerical values using PCA <br />
 Collum_29 is Amount <br />
 Collum_30 is label, [0,1] <br />
-# Data Analysis
+# Data Preprocessing
 Missing Values Analysis: <br />
 Performing a missing values analysis is crucial to ensure the dataset's completeness and identify any potential data imbalances. <br />
 Read the dataset into a Pandas DataFrame. <br />
@@ -37,4 +37,23 @@ Check for missing values in each column and handle them appropriately, such as r
 Statistical Measures: <br />
 Calculate and compare the mean values for the amount of legitimate transactions and fraudulent transactions. <br />
 Compute other relevant statistical measures such as median, standard deviation, minimum, and maximum values for both types of transactions. <br />
+
+# Data Splitting
+Split the dataset into two separate DataFrames - one for fraud transactions and one for legitimate transactions - based on the given labels [0, 1].  <br />
+# Data Undersampling
+Undersample the majority class (legitimate transactions) to balance the dataset.
+
+# Model Building
+Create target (y) and features (X) from the undersampled data. <br />
+Split the data into training and testing sets. <br />
+
+# Model Training and Evaluation
+Apply logistic regression to train the model.  <br />
+Logistic regression is a binary classification algorithm. It predicts the probability of an instance belonging to a particular class based on input features.  <br />
+Calculate the accuracy of the model.  <br />
+Evaluate the model using the confusion matrix.  <br />
+Using the confusion matrix, we can calculate various evaluation metrics to assess the model's performance.  <br />
+
+
+
 
