@@ -35,7 +35,6 @@ Performing a missing values analysis is crucial to ensure the dataset's complete
 Read the dataset into a Pandas DataFrame. <br />
 Check for missing values in each column and handle them appropriately, such as removing or imputing missing data. <br />
 Statistical Measures: <br />
-Analyzing statistical measures helps us gain insights into the distribution of legitimate and fraudulent transactions, which can aid in understanding the data better. <br />
 Calculate and compare the mean values for the amount of legitimate transactions and fraudulent transactions. <br />
 Compute other relevant statistical measures such as median, standard deviation, minimum, and maximum values for both types of transactions. <br />
 
