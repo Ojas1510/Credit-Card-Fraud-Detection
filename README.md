@@ -1,5 +1,6 @@
 # Credit-Card-Fraud-Detection
-This repository contains code for a credit card fraud detection system. The dataset used for this project is sourced from Kaggle, and it is intended to demonstrate the process of building a basic fraud detection model using logistic regression.
+This repository contains code for a credit card fraud detection system. <br />
+The dataset used for this project is sourced from Kaggle, and it is intended to demonstrate the process of building a basic fraud detection model using logistic regression.
 # Table of Contents
 1. Introduction <br />
 2. Requirements <br />
@@ -22,6 +23,6 @@ Scikit-learn <br />
 Install the required dependencies using pip install -r requirements.txt or conda install -r- requirements.txt
 
 # Data Preparation
-Download the credit card fraud dataset from Kaggle https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
+Download the credit card fraud dataset from Kaggle https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud. <br />
 The dataset is expected to have the following columns: [list down the column names].
-Data Analys
+# Data Analys
