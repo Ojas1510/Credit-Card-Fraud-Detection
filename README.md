@@ -29,4 +29,14 @@ Collum_1 is time of the day <br />
 Collum_2 to Collum_28 are the credit card details which are converted in numerical values using PCA <br />
 Collum_29 is Amount <br />
 Collum_30 is label, [0,1] <br />
-# Data Analys
+# Data Analysis
+1.Missing Values Analysis <br />
+Performing a missing values analysis is crucial to ensure the dataset's completeness and identify any potential data imbalances. <br />
+Read the dataset into a Pandas DataFrame. <br />
+Check for missing values in each column and handle them appropriately, such as removing or imputing missing data. <br />
+2.Statistical Measures <br />
+Analyzing statistical measures helps us gain insights into the distribution of legitimate and fraudulent transactions, which can aid in understanding the data better. <br />
+Calculate and compare the mean values for the amount of legitimate transactions and fraudulent transactions. <br />
+Compute other relevant statistical measures such as median, standard deviation, minimum, and maximum values for both types of transactions. <br />
+The statistical analysis will provide a better understanding of the data distribution and assist in making informed decisions during model building and evaluation. <br />
+
