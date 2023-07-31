@@ -24,5 +24,9 @@ Install the required dependencies using pip install -r requirements.txt or conda
 
 # Data Preparation
 Download the credit card fraud dataset from Kaggle https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud. <br />
-The dataset is expected to have the following columns: [list down the column names].
+The dataset is expected to have the following columns: <br />
+Collum_1 is time of the day <br />
+Collum_2 to Collum_28 are the credit card details which are converted in numerical values using PCA <br />
+Collum_29 is Amount <br />
+Collum_30 is label, [0,1] <br />
 # Data Analys
