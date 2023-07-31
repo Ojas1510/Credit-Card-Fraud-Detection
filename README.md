@@ -8,19 +8,19 @@ Data Preparation
 Data Analysis
 Model Building
 Model Evaluation
-#Introduction
+# Introduction
 Credit card fraud is a significant concern for financial institutions and consumers alike. This project aims to develop a simple fraud detection model using logistic regression. We'll use a dataset from Kaggle that contains information about various credit card transactions, including labels for whether the transaction is fraudulent (1) or legitimate (0).
 
-#Requirements
+# Requirements
 Python 3.x
 Pandas
 NumPy
 Scikit-learn
 
-#Setup
+# Setup
 Install the required dependencies using pip install -r requirements.txt or conda install -r- requirements.txt
 
-#Data Preparation
+# Data Preparation
 Download the credit card fraud dataset from Kaggle https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
 The dataset is expected to have the following columns: [list down the column names].
 Data Analys
